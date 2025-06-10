@@ -1,6 +1,5 @@
 /* web developer css style */
-/* Selector {}
-     property : value; */
+/* Selector {}   property : value; */
      body {
         background-color: rgb(225, 227, 227);
      }
@@ -12,3 +11,51 @@
     p {
         color: black;
     }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Flex box example  */
+.container {
+  background-color: #ccc;
+  padding: 10px;
+  height: 400px;
+  display: flex;
+/*  flex-direction: column;
+   flex-direction: row;
+  flex-direction: row-reverse*/
+/*   flex-direction: row; */
+  flex-direction: row;
+/*   justify-content: center; */
+  
+  justify-content: space-between;
+/*   justify-content: space-around;
+   */
+/*    justify-content: space-evenly; */
+/*   justify-content: flex-end; */
+/*      align-items: center; */
+    align-items: flex-end;
+/*     align-items: flex-end; */
+/*     align-items: strech; */
+/*    align-items: center; */
+}
+
+.item {
+  background-color: #f1425d;
+  padding: 30px;
+  margin: 10px;
+  margin-top: 3px;
+  color: #fff;
+  font-size: 40px; 
+}
+
+.i2 {
+  height: 200px;
+}
+
+.i4 {
+  font-size: 70px;
+}
